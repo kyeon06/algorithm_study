@@ -14,3 +14,7 @@ def solution(my_string):
             result -= my_string_list[value+1]
 
     return result
+
+
+def solution2(my_string):
+    return eval(my_string)
