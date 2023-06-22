@@ -17,3 +17,24 @@ while x < 1001:
         x += 1
 
 print(cnt)
+
+# 만약 좌표 범위가 10억일때는?
+hole = list(map(int, input().split())) # 좌표 압축
+
+# if L == 1:
+#     print(N)
+
+# else:
+#     cnt = 0
+#     x = 0
+#     for i in range(len(hole)-1):
+
+#         if L > (hole[i+1] - hole[i]):
+#             x += (hole[i+1] - hole[i])   
+#             if L > x:
+#                 cnt += 1
+
+#         else:
+#             x = 0
+
+# print(cnt)
